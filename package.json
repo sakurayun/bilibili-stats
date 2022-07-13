@@ -1,0 +1,18 @@
+{
+  "name": "bilibili-stats",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "kaichi",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
