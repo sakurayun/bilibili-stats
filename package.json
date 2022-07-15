@@ -4,9 +4,7 @@
   "description": "bilibili stats generator",
   "homepage": "https://github.com/kaichii/bilibili-stats",
   "main": "index.js",
-  "scripts": {
-    "dev": "vercel dev"
-  },
+  "scripts": {},
   "keywords": [
     "bilibili",
     "generator"
@@ -14,6 +12,8 @@
   "author": "kaichi",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "got": "^12.1.0",
+    "node-base64-image": "^2.0.4"
   }
 }

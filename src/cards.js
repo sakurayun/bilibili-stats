@@ -27,8 +27,8 @@ module.exports = {
         <text id="name" x="120" y="40" font-size="14" font-weight="bold" fill="#26abe3">
           {{name}}
         </text>
-        <text id="id" x="121" y="60" font-size="8" fill="#999" font-family="'Press Start 2P'">No.{{id}}</text>
-        <g fill="#333">
+        <text id="id" x="121" y="60" font-size="8" fill="#919191" font-family="'Press Start 2P'">No.{{id}}</text>
+        <g fill="#8b8b8b">
           <text id="follower" x="120" y="90" font-size="12">粉丝 {{follower}}</text>
           <text id="following" x="210" y="90" font-size="12">关注 {{following}}</text>
           <text id="charge" x="300" y="90" font-size="12">充电 {{charge}}</text>
