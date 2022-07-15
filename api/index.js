@@ -18,7 +18,7 @@ module.exports = async (req, res) => {
 
     res.setHeader('Cache-Control', `public, max-age=${cacheSeconds}`);
 
-    return res.send(renderCard(stats, card));
+    return res.send(await renderCard(stats, card));
   } catch (e) {
     return res.send(e.message);
   }

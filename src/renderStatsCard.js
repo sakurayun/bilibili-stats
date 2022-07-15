@@ -1,4 +1,5 @@
 const cards = require('./cards');
+const { base64Image } = require('./utils');
 
 /**
  * 信息卡片
@@ -6,7 +7,7 @@ const cards = require('./cards');
  * @param {string} card
  * @returns {string}
  */
-function renderCard(
+async function renderCard(
   { id, name, face, follower, following, charge, pendant },
   card = 'default'
 ) {
@@ -15,11 +16,11 @@ function renderCard(
   card = card
     .replace(/{{id}}/g, id)
     .replace(/{{name}}/g, name)
-    .replace(/{{face}}/g, face)
+    .replace(/{{face}}/g, await base64Image(face))
     .replace(/{{follower}}/g, follower)
     .replace(/{{following}}/g, following)
     .replace(/{{charge}}/g, charge)
-    .replace(/{{pendant}}/g, pendant);
+    .replace(/{{pendant}}/g, await base64Image(pendant));
 
   return card;
 }
