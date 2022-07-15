@@ -1,7 +1,8 @@
 const getUserInfo = require('../src/getUserInfo');
 const renderCard = require('../src/renderStatsCard');
+const { clampValue } = require('../src/utils');
 
-modules.exports = async (req, res) => {
+module.exports = async (req, res) => {
   const { id, card, cache_seconds } = req.query;
 
   res.setHeader('Content-Type', 'image/svg+xml');

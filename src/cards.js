@@ -1,7 +1,7 @@
 module.exports = {
   default: `
     <svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg" role="img">
-      <title>{{name}} 的 B 站统计数据</title>
+      <title>{{name}}的 B 站统计数据</title>
       <defs>
         <style>
           @font-face {

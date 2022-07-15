@@ -8,6 +8,6 @@ function clampValue(number, min, max) {
   return Math.max(min, Math.min(number, max));
 }
 
-modules.exports = {
+module.exports = {
   clampValue,
 };
