@@ -1,17 +1,18 @@
 {
   "name": "bilibili-stats",
   "version": "0.0.1",
-  "description": "",
+  "description": "bilibili stats generator",
+  "homepage": "https://github.com/kaichii/bilibili-stats",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "dev": "vercel dev"
   },
-  "keywords": [],
+  "keywords": [
+    "bilibili",
+    "generator"
+  ],
   "author": "kaichi",
   "license": "MIT",
-  "devDependencies": {
-    "jest": "^28.1.2"
-  },
   "dependencies": {
     "axios": "^0.27.2"
   }
