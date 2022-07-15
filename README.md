@@ -16,14 +16,14 @@ B 站数据卡片生成器
 
 ```md
 <a href="https://space.bilibili.com/12951817">
-  <img alt="bili-card" width="400" height="120" src="https://bilibili-readme-stats.vercel.app/api?id=12951817"></img>
+  <img alt="bili-card" width="100%" src="https://bilibili-readme-stats.vercel.app/api?id=12951817"></img>
 </a>
 ```
 
 效果
 
 <a href="https://space.bilibili.com/12951817">
-  <img alt="bili-card" width="400" height="120" src="https://bilibili-readme-stats.vercel.app/api?id=12951817"></img>
+  <img alt="bili-card" width="100%" src="https://bilibili-readme-stats.vercel.app/api?id=12951817"></img>
 </a>
 
 ## 使用其他样式
@@ -32,4 +32,4 @@ B 站数据卡片生成器
 ![bili-card](https://bilibili-readme-stats.vercel.app/api?id=12951817&card=<supported-card>)
 ```
 
-## 自定义样式
+[自定义样式](https://github.com/kaichii/bilibili-stats/edit/main/src/cards.js)
