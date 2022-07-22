@@ -1,5 +1,18 @@
 # bilibili-stats
 
+<p align="center">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kaichii/bilibili-stats?style=social">
+  <a href="https://img.shields.io/github/languages/code-size/kaichii/bilibili-stats">
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/kaichii/bilibili-stats">
+  </a>
+  <a href="https://github.com/kaichii/bilibili-stats/blob/main/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/kaichii/bilibili-stats">
+  </a>
+  <a href="https://github.com/kaichii/bilibili-stats/issues">
+    <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/kaichii/bilibili-stats">
+  </a>
+</p>
+
 B 站数据卡片生成器，使用 B 站用户数据生成资料卡片。
 
 ### 如何使用（How to use）?
