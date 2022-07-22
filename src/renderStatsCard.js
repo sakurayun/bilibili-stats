@@ -21,7 +21,11 @@ async function renderCard(
     .replace(/{{following}}/g, following)
     .replace(/{{charge}}/g, charge);
 
-  if (pendant) card = card.replace(/{{pendant}}/g, await base64Image(pendant));
+  if (pendant) {
+    card = card.replace(/{{pendant}}/g, await base64Image(pendant));
+  } else {
+    card = card.replace(/<image(.*id="pendant")>?(.*)(\/?)>/gm, '');
+  }
 
   return card;
 }
