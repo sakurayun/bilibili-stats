@@ -19,8 +19,9 @@ async function renderCard(
     .replace(/{{face}}/g, await base64Image(face))
     .replace(/{{follower}}/g, follower)
     .replace(/{{following}}/g, following)
-    .replace(/{{charge}}/g, charge)
-    .replace(/{{pendant}}/g, await base64Image(pendant));
+    .replace(/{{charge}}/g, charge);
+
+  if (pendant) card = card.replace(/{{pendant}}/g, await base64Image(pendant));
 
   return card;
 }
