@@ -1,4 +1,4 @@
-# bilibili-stats
+<h1 align="center">bilibili-stats</h1>
 
 <p align="center">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kaichii/bilibili-stats?style=social">
