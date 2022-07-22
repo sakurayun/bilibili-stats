@@ -1,6 +1,6 @@
 const getUserInfo = require('../src/getUserInfo');
 const renderCard = require('../src/renderStatsCard');
-const { clampValue } = require('../src/utils');
+const { clampValue, renderError } = require('../src/utils');
 
 module.exports = async (req, res) => {
   const { id, card, cache_seconds } = req.query;
@@ -20,6 +20,6 @@ module.exports = async (req, res) => {
 
     return res.send(await renderCard(stats, card));
   } catch (e) {
-    return res.send(e.message);
+    return res.send(renderError(e.message));
   }
 };

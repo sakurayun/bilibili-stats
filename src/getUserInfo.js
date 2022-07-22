@@ -25,24 +25,29 @@ async function getUserInfo(id) {
     pendant: '',
   };
 
-  const [info, stat, up] = await Promise.all([
-    axios.get(`https://api.bilibili.com/x/space/acc/info?mid=${id}`),
-    axios.get(`https://api.bilibili.com/x/relation/stat?vmid=${id}`),
-    axios.get(
-      `https://api.bilibili.com/x/ugcpay-rank/elec/month/up?up_mid=${id}`
-    ),
-  ]);
+  try {
+    const [info, stat, up] = await Promise.all([
+      axios.get(`https://api.bilibili.com/x/space/acc/info?mid=${id}`),
+      axios.get(`https://api.bilibili.com/x/relation/stat?vmid=${id}`),
+      axios.get(
+        `https://api.bilibili.com/x/ugcpay-rank/elec/month/up?up_mid=${id}`
+      ),
+    ]);
 
-  if (!!info.data.code || !!stat.data.code || !!up.data.code) {
-    throw new Error('Could not fetch user');
+    if (!!info.data.code || !!stat.data.code) {
+      throw new Error('Could not fetch user');
+    }
+
+    stats.name = info.data.data?.name;
+    stats.face = info.data.data?.face;
+    stats.pendant = info.data.data?.pendant?.image;
+    stats.follower = stat.data.data?.follower;
+    stats.following = stat.data.data?.following;
+    // 可能未开通充电
+    stats.charge = up.data?.data?.total ?? 0;
+  } catch (e) {
+    throw e;
   }
-
-  stats.name = info.data.data.name;
-  stats.face = info.data.data.face;
-  stats.pendant = info.data.data.pendant.image;
-  stats.follower = stat.data.data.follower;
-  stats.following = stat.data.data.following;
-  stats.charge = up.data.data.total;
 
   return stats;
 }
