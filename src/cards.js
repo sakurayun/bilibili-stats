@@ -12,7 +12,7 @@ module.exports = {
           }
         </style>
       </defs>
-      <rect id="bg" stroke="#e0dbdb" fill="none" width="100%" height="100%" rx="2%" />
+      <rect id="bg" x="2" y="2" stroke="#e0dbdb" fill="none" width="396" height="116" rx="2%" />
       <svg width="120" height="120" viewBox="0 0 100 100">
         <defs>
           <clipPath id="avatar">
@@ -24,14 +24,14 @@ module.exports = {
         <image id="pendant" href="{{pendant}}" width="100" height="100" />
       </svg>
       <g>
-        <text id="name" x="120" y="40" font-size="14" font-weight="bold" fill="#26abe3">
+        <text id="name" x="122" y="40" font-size="14" font-weight="bold" fill="#26abe3">
           {{name}}
         </text>
-        <text id="id" x="121" y="60" font-size="8" fill="#919191" font-family="'Press Start 2P'">No.{{id}}</text>
+        <text id="id" x="122" y="60" font-size="8" fill="#919191" font-family="'Press Start 2P'">No.{{id}}</text>
         <g fill="#8b8b8b">
-          <text id="follower" x="120" y="90" font-size="12">粉丝 {{follower}}</text>
-          <text id="following" x="210" y="90" font-size="12">关注 {{following}}</text>
-          <text id="charge" x="300" y="90" font-size="12">充电 {{charge}}</text>
+          <text id="follower" x="122" y="90" font-size="12">粉丝 {{follower}}</text>
+          <text id="following" x="212" y="90" font-size="12">关注 {{following}}</text>
+          <text id="charge" x="302" y="90" font-size="12">充电 {{charge}}</text>
         </g>
       </g>
     </svg>
