@@ -13,7 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",
-    "got": "^12.1.0",
     "node-base64-image": "^2.0.4"
   }
 }
