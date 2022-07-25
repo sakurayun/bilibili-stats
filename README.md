@@ -61,7 +61,6 @@ B 站数据卡片生成器，使用 B 站用户数据生成资料卡片。
 
 没有你想要的样式？去[自定义](https://github.com/kaichii/bilibili-stats/edit/main/src/cards.js)自己的卡片样式（[DIY](https://github.com/kaichii/bilibili-stats/edit/main/src/cards.js)）。
 
-### 相关项目（Related Projects）
+### 相关项目（Related）
 
-- [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) by [@anuraghazra](https://github.com/anuraghazra)
-- [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) by [@SocialSisterYi](https://github.com/SocialSisterYi)
+- 灵感来源（Inspired by） [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) by [@anuraghazra](https://github.com/anuraghazra)
