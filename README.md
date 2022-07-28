@@ -29,16 +29,16 @@ B 站数据卡片生成器，使用 B 站用户数据生成资料卡片。
 或者使用 `<img>` (or use `<img>` tag)，添加自定义样式。
 
 ```md
-<p align="center">
+<p align="left">
   <a href="https://space.bilibili.com/12951817">
-    <img alt="bili-card" src="https://bilibili-readme-stats.vercel.app/api?id=12951817"></img>
+    <img style="" alt="bili-card" src="https://bilibili-readme-stats.vercel.app/api?id=12951817"></img>
   </a>
 </p>
 ```
 
-<p align="center">
+<p align="left">
   <a href="https://space.bilibili.com/12951817">
-    <img alt="bili-card" src="https://bilibili-readme-stats.vercel.app/api?id=12951817"></img>
+    <img style="" alt="bili-card" src="https://bilibili-readme-stats.vercel.app/api?id=12951817"></img>
   </a>
 </p>
 
