@@ -62,6 +62,14 @@ B 站数据卡片生成器，使用 B 站用户数据生成资料卡片。
 
 没有你想要的样式？去[自定义](https://github.com/kaichii/bilibili-stats/edit/main/src/cards.js)自己的卡片样式（[DIY](https://github.com/kaichii/bilibili-stats/edit/main/src/cards.js)）。
 
+### 参数（Params）
+
+| 参数（Param） | 描述（description） | 是否必填（Mandatory） | 例子（Sample）                                                                                     |
+| ------------- | ------------------- | --------------------- | -------------------------------------------------------------------------------------------------- |
+| id            | B 站 `uid`          | true                  | `uid`：12951817                                                                                    |
+| card          | 支持的卡片          | false                 | 默认：default，更多：pink、[more...](https://github.com/kaichii/bilibili-stats/edit/main/src/cards.js) |
+| cache_seconds | 缓存                | false                 | 默认：14400                                                                                        |
+
 ### 相关项目（Related）
 
 - 灵感来源（Inspired by） [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) by [@anuraghazra](https://github.com/anuraghazra)
