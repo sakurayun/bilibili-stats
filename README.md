@@ -14,7 +14,7 @@
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kaichii/bilibili-stats?style=social">
 </p>
 
-B 站数据卡片生成器，使用 B 站用户数据生成资料卡片。
+B 站数据卡片生成器，使用 B 站用户数据生成资料卡片（Generate bilibili stats card by free bilibili API）。
 
 ### 如何使用（How to use）?
 
@@ -26,7 +26,7 @@ B 站数据卡片生成器，使用 B 站用户数据生成资料卡片。
 
 ![bili-card](https://bilibili-readme-stats.vercel.app/api?id=12951817)
 
-或者使用 `<img>` (or use `<img>` tag)，添加自定义样式。
+或者使用 `<img>` (or use `<img>` tag)，添加自定义样式（apply style attrs）。
 
 ```md
 <img style="[styles]" alt="bili-card" src="https://bilibili-readme-stats.vercel.app/api?id=12951817"></img>
