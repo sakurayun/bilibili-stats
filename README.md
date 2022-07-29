@@ -1,3 +1,5 @@
+![Cover](./cover.png)
+
 <h1 align="center">bilibili-stats</h1>
 
 <p align="center">
