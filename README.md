@@ -66,4 +66,4 @@ B 站数据卡片生成器，使用 B 站用户数据生成资料卡片（Genera
 
 ### 开源许可（License）
 
-[MIT](https://github.com/kaichii/bilibili-stats/blob/main/LICENSE) © [Kaichi](https://github.com/kaichii)
+[MIT](https://github.com/kaichii/bilibili-stats/blob/main/LICENSE) © [kaichi](https://github.com/kaichii)
