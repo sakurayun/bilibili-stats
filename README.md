@@ -1,7 +1,6 @@
 <h1 align="center">bilibili-stats</h1>
 
 <p align="center">
-  <img alt="Vercel" src="https://vercelbadge.vercel.app/api/kaichii/bilibili-stats" />
   <a href="https://img.shields.io/github/languages/code-size/kaichii/bilibili-stats">
     <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/kaichii/bilibili-stats">
   </a>
