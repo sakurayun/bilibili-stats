@@ -4,6 +4,11 @@
 
 const axios = require('axios').default;
 
+const UA =
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36';
+
+axios.defaults.headers.common['user-agent'] = UA;
+
 /**
  * 获取用户 B 站（无需 token）数据
  * @param {string} id
